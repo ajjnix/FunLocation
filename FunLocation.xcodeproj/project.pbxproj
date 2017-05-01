@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D304B5F1EB72B4300767577 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D304B5E1EB72B4300767577 /* LocationService.swift */; };
+		2D304B6B1EB7315100767577 /* route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2D304B6A1EB7315100767577 /* route.gpx */; };
 		2DE770331EB72A8500A13C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE770321EB72A8500A13C05 /* AppDelegate.swift */; };
 		2DE770351EB72A8500A13C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE770341EB72A8500A13C05 /* ViewController.swift */; };
 		2DE770381EB72A8500A13C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE770361EB72A8500A13C05 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2D304B5E1EB72B4300767577 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		2D304B6A1EB7315100767577 /* route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = route.gpx; sourceTree = "<group>"; };
 		2DE7702F1EB72A8500A13C05 /* FunLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE770321EB72A8500A13C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE770341EB72A8500A13C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				2DE7703B1EB72A8500A13C05 /* LaunchScreen.storyboard */,
 				2DE7703E1EB72A8500A13C05 /* Info.plist */,
 				2D304B5E1EB72B4300767577 /* LocationService.swift */,
+				2D304B6A1EB7315100767577 /* route.gpx */,
 			);
 			path = FunLocation;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE7703D1EB72A8500A13C05 /* LaunchScreen.storyboard in Resources */,
+				2D304B6B1EB7315100767577 /* route.gpx in Resources */,
 				2DE7703A1EB72A8500A13C05 /* Assets.xcassets in Resources */,
 				2DE770381EB72A8500A13C05 /* Main.storyboard in Resources */,
 			);

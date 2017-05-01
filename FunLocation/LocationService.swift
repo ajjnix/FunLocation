@@ -44,5 +44,11 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let userDefaults = UserDefaults.standard
+        let key = "location"
+        let count = userDefaults.integer(forKey: key) + 1
+        userDefaults.set(count, forKey: key)
+        userDefaults.synchronize()
+        print("didUpdateLocations #\(count)")
     }
 }
