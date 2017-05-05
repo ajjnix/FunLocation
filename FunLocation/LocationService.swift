@@ -34,12 +34,9 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
         if value {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.distanceFilter = 10
-            locationManager.disallowDeferredLocationUpdates()
         } else {
             locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
             locationManager.distanceFilter = CLLocationDistanceMax
-            locationManager.allowDeferredLocationUpdates(untilTraveled: CLLocationDistanceMax,
-                                                         timeout: CLTimeIntervalMax)
         }
     }
     
